@@ -49,7 +49,7 @@ class Tallspill{
         /* if (gjetning == nyttTall()){*/
             showMessageDialog(null,gjetning+" er riktig! \n Du gjettet riktig på "+antall+" forsøk.");
     }
-    public void kjørSpill() {
+    public void kj�rSpill() {
     /* Kjører en spillrunde ved å trekke et tall,
       nullstille tellevariabel, innhente gjentatte
       gjetninger fra bruker inntil det gjettes riktig.
@@ -86,7 +86,7 @@ class Tallspill{
     }
     public static void main(String[] args) {
     	Tallspill runde1 = new Tallspill();
-        runde1.kjørSpill();
+        runde1.kj�rSpill();
 	}
 }
 

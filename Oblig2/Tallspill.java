@@ -43,7 +43,7 @@ class Tallspill{
 	return g;
   }
   
-  public void kjÃ¸rSpill() {
+  public void kjørSpill() {
 	  i=0;
 	  avsluttet = false;
 	  int tall = nyttTall();
@@ -67,6 +67,6 @@ class Tallspill{
   }
   public static void main(String[] args) {
 	Tallspill t = new Tallspill();
-	t.kjÃ¸rSpill();
+	t.kjørSpill();
 }
 }
